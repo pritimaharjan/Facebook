@@ -1,0 +1,125 @@
+
+.head
+{
+   height: 100vh;
+    background-color:#FDFDFF; 
+
+
+}.navbar
+{
+    display: flex;
+    flex-direction: row;
+       height:7rem;
+    background-color:#395795; 
+    /* gap:20px; */
+    column-gap: 20rem;
+}
+.facebook
+{
+   font-size: 5rem;
+   margin-left: 5rem;
+   color: #FEFFFE;
+    
+}
+.navlogin
+{
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    align-items: center;
+}
+
+.email
+{
+    text-align: left;
+    color: #FEFFFE;
+}
+.password
+{
+    text-align: left;
+    margin-top: 19px;
+    color: #FEFFFE;
+}
+.login{
+    margin-top: 19px;
+    height: max-content;
+    width: fit-content;
+    background-color: #5C80AD;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.log{
+    color:  #FEFFFE;
+   font-style: bold;
+    padding: 2px;
+}
+.forget
+{
+    color: #6E91C5;
+}
+
+.body1
+{
+    display: flex;
+    flex-direction: row;
+justify-content: center;
+align-items: center;
+column-gap: 20rem;
+
+}
+.sidebar1
+{
+    margin-left: 10rem;
+    text-align: left;
+}
+.form
+{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-right: 10rem;
+
+}
+.input2{
+    display: flex;
+    flex-direction: column;
+ row-gap: 8px;
+ height: 10rem;
+ background-color: #FBFCFE;
+ 
+}
+.input1
+{
+  height: 120px;
+    /* width: 15rem; */
+    border: 1px solid #D6D8E4;
+    border-radius: 5px;
+    /* background-color: #5C80AD; */
+    
+}
+.birthday
+{
+  margin-top: rem;
+  
+}
+.birthday text
+{
+    color:black;
+    font-weight: 500;
+}
+.dob
+{
+    height: 1.5rem;
+    font-size: large;
+}
+.gender
+{
+    color:black;
+    font-weight: 500;
+
+}
+.para1 
+{
+    font-size: small;
+color: #8C888E;
+margin-right: 5rem;
+}
