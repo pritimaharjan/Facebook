@@ -23,7 +23,7 @@ export const Login = () => {
           </div>
           <div className='button'>
 
-            <button className='button'>Log in</button>
+            <Link to='/home'>Log in</Link>
           </div>
           <div className='password'>
             {/* <button className='forgetpassword'>Forgotten Password?</button> */}

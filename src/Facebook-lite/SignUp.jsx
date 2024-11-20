@@ -72,7 +72,9 @@ export const SignUp = () => {
           <div className='password'>
             <label>Password</label><br />
             <input type="password" placeholder='password' /><br />
-            <Link to="/ForgotPassword" className='forget'>Forget Password</Link>
+            {/* <Link to="/ForgotPassword" className='forget'>Forget Password</Link> */}
+            <Link to='/ForgetPassword' className='forget'>Forgotten Password?</Link>
+
           </div>
           <div className='login'>
             <Link to="/" className='log'><b>Login</b></Link>
